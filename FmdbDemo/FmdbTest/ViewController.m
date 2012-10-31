@@ -143,6 +143,9 @@
     NSString * doc = PATH_OF_DOCUMENT;
     NSString * path = [doc stringByAppendingPathComponent:@"user.sqlite"];
     self.dbPath = path;
+    
+    //写点东西改变一下这个类，测试github用法
+    
 }
 
 - (void)viewDidUnload
